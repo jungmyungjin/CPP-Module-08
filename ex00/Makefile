@@ -1,6 +1,6 @@
 # Macro Variables 
 CXXFLANGS = -Wall -Wextra -Werror -std=c++98
-CXX=clang++ $(CXXFLANGS)
+CXX=c++ $(CXXFLANGS)
 
 # Custom Variables
 SRCS = ./main.cpp
